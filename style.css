@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
   }
@@ -17,8 +17,8 @@ body {
     flex-direction: column;
   }
   
-  /* Responsive Styles */
-  @media (max-width: 1200px) {
+  
+  @media (max-width: 1201px) {
     .desktop-view {
       padding: 20px;
     }
@@ -45,15 +45,14 @@ body {
     }
   }
   
-  /* Text Styles */
+ 
   .company, .collections, .menu, .menu-1, .events, .contact, .loreumipsum, .loreumipsum-1, .loreumipsum-2,
   .get-started, .get-started-1, .get-started-2, .get-started-3, .loreum-ipsum-heading, .loreum-ipsum-heading-1,
   .portrait, .portrait-1 {
     font-size: 18px;
     margin: 5px;
   }
-  
-  /* Hover Effects for Images */
+ 
   .screenshot-20230329-at-7261, .screenshot-20230329-at-7301, .screenshot-20230329-at-7341 {
     transition: transform 0.3s ease-in-out;
   }
@@ -62,7 +61,7 @@ body {
     transform: scale(1.1);
   }
   
-  /* Line Styles */
+ 
   .line-1, .line-11, .line-12, .line-2 {
     width: 100%;
     height: 2px;
